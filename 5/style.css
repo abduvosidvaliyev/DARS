@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.cards {
+    width: 84%;
+    height: auto;
+    padding: 0px 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.container > button{
+    width: 120px;
+    height: 40px;
+    background: none;
+    border: 2px solid;
+    border-color: #000 #ccc #ccc #000;
+    border-radius: 5px;
+}
+
+.cards img{
+    width: 20%;
+    height: 350px;
+    object-fit: cover;
+}
+

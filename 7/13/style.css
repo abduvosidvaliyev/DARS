@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    width: 100%;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+nav input {
+    width: 300px;
+    height: 50px;
+    outline: none;
+    text-indent: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+nav input:focus {
+    box-shadow: 0px 0px 3px 3.5px #858585;
+}
+
+nav button {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background: none;
+    font-size: 15px;
+    border-color: #000 #ccc #ccc #000;
+}
+
+nav button:active {
+    box-shadow: 0px 0px 3px 1.5px #8f8f8f;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.text1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.alert {
+    width: 400px;
+    height: 110px;
+    background: #121212;
+    border-radius: 10px;
+    color: #fff;
+    position: absolute;
+    top: -100%;
+    left: 34%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px 20px;
+    transition: 0.5s;
+}
+
+.alert button {
+    align-self: flex-end;
+    margin-top: 60px;
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 15px;
+    color: #fff;
+    background: dodgerblue;
+}
+
+.alert button:active {
+    box-shadow: 0px 0px 3px 1.5px #8f8f8f;
+}
+
+/* javascript uchun */
+
+.alert1 {
+    top: 0;
+}

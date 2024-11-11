@@ -1,0 +1,1023 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar qism uchun */
+
+.nav {
+    width: 84%;
+    height: 100px;
+    padding: 0px 8%;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.buttons button {
+    background: #ebebeb;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 5px;
+}
+
+.buttons i {
+    position: relative;
+}
+
+.buttons i::after {
+    content: "0";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #2b1edd;
+    border-radius: 50%;
+    font-size: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    left: 10px;
+}
+
+/* Header qism uchun */
+
+.header {
+    width: 84%;
+    padding: 3vh 8% 0px 8%;
+    height: 81vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header>img {
+    width: 300px;
+    height: 450px;
+    object-fit: contain;
+    filter: grayscale(70%);
+}
+
+.headerText {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+}
+
+.headerText h1 {
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.headerText h1 b {
+    background: linear-gradient(90deg, #e122f9, #3922f2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    align-self: flex-end;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.headerText h1 small {
+    background: linear-gradient(90deg, #e122f9, #3922f2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    align-self: center;
+}
+
+.headerText p {
+    color: #3B3B3B;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.headerText a {
+    align-self: flex-end;
+    color: #3B3B3B;
+    text-decoration: none;
+}
+
+/* About qism uchun */
+
+.about {
+    width: 70%;
+    height: 650px;
+    background: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10% 0px 20%;
+    gap: 40px;
+}
+
+.aboutText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.aboutText p {
+    line-height: 30px;
+    color: #3B3B3B;
+}
+
+.aboutText span {
+    align-self: flex-end;
+    width: 40%;
+    text-align: end;
+    font-size: 15px;
+    font-style: italic;
+    color: #3B3B3B;
+}
+
+.aboutImg {
+    background: #3B3B3B;
+    color: #fff;
+}
+
+.aboutImg>img {
+    width: 365px;
+    height: 390px;
+    filter: grayscale(80%);
+}
+
+.aboutImg>div {
+    padding: 20px 0px 20px 0px;
+}
+
+.b3 h1 {
+    padding-left: 50px;
+    font-size: 40.8px;
+    line-height: 50px
+}
+
+/* Service qism uchun */
+
+.service {
+    width: 70%;
+    padding: 80px 15%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.serviceLeft {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    color: #3B3B3B;
+}
+
+.serviceLeft h1 {
+    font-size: 38px;
+    line-height: 50px;
+}
+
+.serviceLeft i {
+    font-size: 14px;
+    color: #828080;
+}
+
+.serviceLeft p {
+    line-height: 30px;
+}
+
+.serviceRight {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 25px;
+    color: #3B3B3B;
+}
+
+.serviceRight h3 {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.serviceRight>i {
+    font-size: 14px;
+    color: #828080;
+}
+
+.serviceRight ul {
+    padding-left: 30px;
+    border-left: 2px solid #e122f9;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.serviceRight ul li {
+    font-size: 15px;
+}
+
+.serviceHref {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.serviceHref span {
+    color: #5C90DE;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.serviceHref a {
+    text-decoration: none;
+    color: #3B3B3B;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 14px;
+}
+
+/* Products qism uchun */
+
+.products {
+    width: 70%;
+    padding: 80px 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.productsTop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    color: #3B3B3B;
+}
+
+.productsTop h1 {
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.productsTop p {
+    font-weight: 600;
+}
+
+.productsCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.productsImages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productsText {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    color: #3B3B3B;
+}
+
+.productsText h2 {
+    font-size: 30px;
+}
+
+.productsText p {
+    font-size: 18px;
+}
+
+.productsButtons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productsText button {
+    padding: 10px 20px;
+    text-transform: capitalize;
+    background: linear-gradient(90deg, #e122f9, #2b1edd);
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.productsButtons h2 {
+    font-weight: 600;
+}
+
+.productsBottom {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #3B3B3B;
+    gap: 20px;
+}
+
+.productsBottom p {
+    line-height: 25px;
+}
+
+.between {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.between>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.between>div>div {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #3B3B3B;
+}
+
+.productsActiv {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.productsImg {
+    width: 100px;
+    height: 130px;
+    object-fit: contain;
+    opacity: 0.5;
+}
+
+/* Products2 uchun kod */
+
+.products2 {
+    width: 100%;
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProductsTop {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ProductsTop>img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ProductsText1 {
+    width: 25%;
+    padding-right: 20%;
+    background: #f8f8f8;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    height: 100%;
+    color: #3B3B3B;
+}
+
+.ProductsText1 h2 {
+    font-size: 35px;
+}
+
+.ProductsText1 p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.ProductsButtons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ProductsButtons button {
+    padding: 10px 25px;
+    border-radius: 5px;
+    background: #e8e8e8;
+    border: none;
+    cursor: pointer;
+}
+
+.ProductsButtons h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.ProductsBottom {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProductsText2 {
+    width: 25%;
+    padding-left: 20%;
+    padding-right: 5%;
+    height: 100%;
+    background: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+    color: #3B3B3B;
+}
+
+.ProductsText2 h2 {
+    font-size: 35px;
+}
+
+.ProductsText2 p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.ProductsBottom>img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.products2>button {
+    width: 200px;
+    height: 40px;
+    background: linear-gradient(90deg, #e122f9, #2b1edd);
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+    transform: translateY(50px);
+}
+
+/* Video uchun kod */
+
+.video {
+    width: 70%;
+    height: 500px;
+    padding: 60px 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+
+.videoLeft {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoBackground {
+    width: 100%;
+    height: 80%;
+    background: center/cover url("https://s3-alpha-sig.figma.com/img/d575/5b78/0f35a97005d6545750236aa44e7b0cfc?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BIQiNuPvobUGhUI-R~kdjm0N0VyMa58LcQaKIPr2gnSO6uAxNSaMAn8InQDMCj-cw7Ub1rvnVwzDg6pTfOnLAnf2g81sWcu-WPJjDWNVK695xS0c3VFDAj33lNQjdFJ64qvmPAyZNfTU1AbCEzs3OsmcUsQ~rkXD9J6UMHLanZXwwqqWMiuSf6bYFyLQ38bgKCAO-KsQW3riDK96rItYcQKWNG0V5uhXOgfDsi7xp4r8wWYk~~nm5GDL2RkhxoG6wd3wdvPG~UYoOIIaEf82Gi5BA-ow7HAC9x2j2KY-IChmiMMOaEmxoJlIyrfvZ2RR735gpnX5Sxcy96R6ZcUXMQ__");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoBackground>div {
+    width: 100%;
+    height: 100%;
+    background: #00000070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoBackground>div>div {
+    width: 80px;
+    height: 70px;
+    background: #2b1edd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.videoBackground>div>div:hover i {
+    transform: skewX(180deg);
+}
+
+.videoBackground i {
+    color: #fff;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.videoText {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.videoText div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #3B3B3B;
+}
+
+.videoText h5 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.videoText button {
+    padding: 10px 35px;
+    background: linear-gradient(90deg, #e122f9, #2b1edd);
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.videoText i {
+    color: #828080;
+    font-size: 12px;
+}
+
+.videoRight {
+    width: 25%;
+    height: 100%;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    overflow-y: scroll;
+}
+
+.videoRight::-webkit-scrollbar {
+    width: 8px;
+    background: #eaeaea;
+}
+
+.videoRight::-webkit-scrollbar-thumb {
+    background: #2b1edd;
+    border-radius: 53px;
+}
+
+.videoRight>div {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.videoRight img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.videoRight h5 {
+    font-size: 14px;
+    color: #3B3B3B;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.videoRight i {
+    font-size: 12px;
+    color: #828080;
+    line-height: 25px;
+}
+
+/* Music uchun kod */
+
+.music {
+    width: 60%;
+    height: 450px;
+    background: #F8F8F8;
+    padding: 50px 20% 0px 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.musicBackround {
+    width: 90%;
+    height: 190px;
+    padding: 20px 5%;
+    background: center/cover url("https://s3-alpha-sig.figma.com/img/161c/e64e/be54d53acc7af62e83775764fd4c40b7?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QTlm3NDv6Cge8Z0eRGMn0ssB~qWPfrLg~MBr7pVZBO1tvVkkFTYmojK~bjRGmDJAsCbdwiueckwZl1h3v4juAu4TCq~TSYexyBFV7LEhKTlOBT-JVsoJkWTwsPf2qrmoB4aAPv3Lsel5rpEaK6BsTunAlQHyoGWHTMiI703~CcZH4HFKPNIejfg~rGRG7N4qAFXevk2ZwEhmwDNXAEbrHm6EdcCHqp-~6avmcYWrNGfW-AYUTOUx50FCpTuWiqXxhPbyQeD4jUAr~ZX6KNyZ2SkizXT5e4UHolcvbwCovDk2XcUG6RKiw61K6zZo5PZrpd3b12lAy-baudoLa0tgGg__");
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: #fff;
+    position: relative;
+}
+
+.musicBackround::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000080;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.musicBackround button,
+h3 {
+    position: relative;
+    z-index: 2;
+}
+
+.musicBackround button {
+    background: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 7px 20px;
+    cursor: pointer;
+}
+
+.music img {
+    width: 60%;
+    height: 0px;
+    transition: 0.5s;
+    box-shadow: 0px 0px 20px #eaeaea;
+    pointer-events: none;
+    background: #fff;
+    transform: translateY(0px);
+    position: absolute;
+    top: 400px;
+    cursor: pointer;
+}
+
+/* Blog uchun kod */
+
+.blog {
+    width: 70%;
+    padding: 80px 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: start;
+    color: #3B3B3B;
+}
+
+.blog>h1 {
+    font-size: 40px;
+    font-weight: 600;
+    align-self: start;
+}
+
+.blogCards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogCard {
+    width: 30%;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0px 0px 15px #d6d6d6;
+    border-radius: 5px;
+    gap: 20px;
+}
+
+.blogCard img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.blogCard>div {
+    width: 90%;
+    height: 90px;
+    padding: 0px 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.blogCard h5 {
+    font-size: 15px;
+}
+
+.icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #d1d1d1;
+}
+
+.icons i {
+    font-size: 15px;
+}
+
+.icons span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.blog>button {
+    background: #ECECEC;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Team uchun kod */
+
+.team {
+    width: 70%;
+    padding: 80px 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    color: #3B3B3B;
+}
+
+.team>h1 {
+    font-size: 38px;
+    text-transform: capitalize;
+}
+
+.teamCards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.teamCard {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.teamCard>div {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(100%);
+    border-radius: 5px;
+}
+
+.teamBakground1 {
+    background: center/cover url("https://s3-alpha-sig.figma.com/img/6fc5/53fa/da7ae0d66d62669d6de40a6fdbfcda36?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OhdVUCLuM-4m~MZbYAfsGkDxxUEH0oP9ZmlqggeZF17dxEfG7m3noDNBxInHcVAiuIc7MoS8i1pOksnEdeOPjAG3~dK8ZrGVrhThjQNyAhmCUksAWpa~vDyXkvR1CDjs4fccZT-X6jvCgTticu1bHnoZopKEmrhHyilS15onEvE2jqJ~2fpBs6j5Gu00Z6cSjuBdOpiyDsalrq7HfIDZZOpdEU8jItWx7fk7BKqkiyyc22xfzEvbNBYzzjQ8wSFWcyzPqmIFFZNtD01lNMJAnowKpv93DkcUV6Am5mhLEF61CJbgZCTk5UDpH5ZGGh-s-QezFThyLvrBSmJdzQJKeg__");
+}
+
+.teamCard img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.teamBakground2{
+    background: center/cover url("https://s3-alpha-sig.figma.com/img/6fc5/53fa/da7ae0d66d62669d6de40a6fdbfcda36?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OhdVUCLuM-4m~MZbYAfsGkDxxUEH0oP9ZmlqggeZF17dxEfG7m3noDNBxInHcVAiuIc7MoS8i1pOksnEdeOPjAG3~dK8ZrGVrhThjQNyAhmCUksAWpa~vDyXkvR1CDjs4fccZT-X6jvCgTticu1bHnoZopKEmrhHyilS15onEvE2jqJ~2fpBs6j5Gu00Z6cSjuBdOpiyDsalrq7HfIDZZOpdEU8jItWx7fk7BKqkiyyc22xfzEvbNBYzzjQ8wSFWcyzPqmIFFZNtD01lNMJAnowKpv93DkcUV6Am5mhLEF61CJbgZCTk5UDpH5ZGGh-s-QezFThyLvrBSmJdzQJKeg__");
+}
+
+.teamBakground3 {
+    background: center/cover url("https://s3-alpha-sig.figma.com/img/6fc5/53fa/da7ae0d66d62669d6de40a6fdbfcda36?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OhdVUCLuM-4m~MZbYAfsGkDxxUEH0oP9ZmlqggeZF17dxEfG7m3noDNBxInHcVAiuIc7MoS8i1pOksnEdeOPjAG3~dK8ZrGVrhThjQNyAhmCUksAWpa~vDyXkvR1CDjs4fccZT-X6jvCgTticu1bHnoZopKEmrhHyilS15onEvE2jqJ~2fpBs6j5Gu00Z6cSjuBdOpiyDsalrq7HfIDZZOpdEU8jItWx7fk7BKqkiyyc22xfzEvbNBYzzjQ8wSFWcyzPqmIFFZNtD01lNMJAnowKpv93DkcUV6Am5mhLEF61CJbgZCTk5UDpH5ZGGh-s-QezFThyLvrBSmJdzQJKeg__");
+}
+
+.teamCard h5{
+    font-size: 18px;
+}
+
+.teamCard button{
+    width: 100%;
+    height: 40px;
+    background: ;
+    color: #3B3B3B;
+    border: 1px solid #3B3B3B;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    transition: 0.7s;
+
+    &:hover div{
+        width: 100%;
+    }
+
+    &:hover{
+        color: #fff;
+    }
+}
+
+.teamCard button div{
+    width: 0;
+    height: 100%;
+    background: linear-gradient(90deg, #e122f9, #2b1edd);
+    transition: 0.7s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* Out uchun kod */
+
+.out{
+    width: 70%;
+    height: 70vh;
+    padding: 80px 15% 0px;
+    background: center -50px/cover url("https://s3-alpha-sig.figma.com/img/5b0e/ff63/26a0760935eef24a9f502965c5d45372?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TgEMuEVIVYyc0cuec75mvgX3uQhRQFhIPkYNNWfoG3fxiqg2YIVsLWxSZFcfGIahVkiIXVYCel3U4tGXhEOHurrs144UsTp197bzeIb5oyKu82TpKSqZIVwr2a-62gBSHT1twPZtaU5BjXk1xWQzp2VsnLmVzS4cog08R~-hnD4Z3NArru5uI7kT4GlP948l8p7uhwLwtvU7FpEnyZwpw2Z~GxHJ5rX9J1ATNBFexO3bSh5Cc~y8~NH4DPHqCSRxphWyOcpwdmboJ~oaLrM3Kh6B5-Uh~JUTtzcqyb6LjpCqwJMAyxEO9agaMbVvEN6-T0-ek9KvblZLPhYXh4lsTA__");
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 30px;
+    position: relative;
+}
+
+.out::after{
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: center/cover url("https://s3-alpha-sig.figma.com/img/c501/1e86/833b73237b98d035962029b8211f199b?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=B9wm5NyJDGRuXdZMBW3Ztg5by4E98GbwKPkLiiJZ0TwnJ84C2eeVNPzkPlZMWff3tJy4uOHhyKxiTGVDlnRRm7y-g0Eka3tNRLpqQuo3fqgZNjXbRfNhLaqqlWiMnFnc1GZ7bz4NTMpZHE5NQ24y6q1PsR5OnEyKivNkvOLsTkwbJnApAyPekK1HfxX7knNz95zO8SU7iWqm~G3RJjWD0zaQB-mgXH9Rpu~knZQiz6zstst5BOW4kSw0hJJk-dJqRaZTZ9V~ddr9n8LF-o8LrsUtRZ67Z0vtqZ3OqzudilVKiQk~Hs4cJ667Ds~x0BVISyT0ImDRrePimZckUsVW4w__");
+    filter: brightness(120%) grayscale(100%);
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+}
+
+.outCards{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.outCard{
+    width: 28%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 35px;
+    color: #3B3B3B;
+}
+
+.hrefs{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.hrefs a{
+    text-decoration: none;
+    color: #3B3B3B;
+    transition: 0.3s;
+
+    &:hover{
+        transform: translateX(10px);
+    }
+}
+
+.hrefs p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.outCard button{
+    padding: 8px 25px;
+    background: #e8e8e8;
+    position: relative;
+    transition: 0.7s;
+    z-index: 2;
+    border: none;
+    border-radius: 4px;
+
+    &:hover{
+        color: #fff;
+    }
+
+    &:hover div{
+        width: 100%;
+    }
+}
+
+.outCard button div{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    transition: 0.7s;
+    background: linear-gradient(90deg, #e122f9, #2b1edd);
+    top: 0;
+    left: 0;
+    border-radius: 4px;
+}
+
+.privice{
+    width: 50%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #828080;
+    font-size: 14px;
+}
+
